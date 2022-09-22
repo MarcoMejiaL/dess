@@ -231,6 +231,75 @@ header {
   color: var(--base__white);
 }
 
+.experience__container h2 {
+  text-align: center;
+  font-size: 2.3rem;
+  margin-top: 12px;
+}
+.experience__container .cards__container {
+  margin: 32px;
+  padding: 12px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(auto-fill, auto);
+  gap: 25px;
+}
+.experience__container .cards__container .card__item {
+  border-left: 1px dashed #ccc;
+  width: auto;
+  height: auto;
+  margin: 12px;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 12px;
+}
+.experience__container .cards__container .card__item .card__icon {
+  padding: 6px;
+  height: 120px;
+}
+.experience__container .cards__container .card__item .card__icon .button-icon {
+  background-color: var(--base_red);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0px;
+  font-size: 1.5rem;
+}
+.experience__container .cards__container .card__item .card__content {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+.experience__container .cards__container .card__item .card__content .content__year {
+  background-color: var(--blanquito);
+  width: 100px;
+  height: 12px;
+  text-align: center;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+}
+.experience__container .cards__container .card__item .card__content .content__year p {
+  color: --base_black;
+}
+.experience__container .cards__container .card__item .card__content .content__title {
+  font-size: 1.9rem;
+  color: var(--base_black);
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.experience__container .cards__container .card__item .card__content .content__description {
+  font-size: 1.4rem;
+  color: var(--base_black);
+  letter-spacing: 1px;
+}
+
 .years__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
