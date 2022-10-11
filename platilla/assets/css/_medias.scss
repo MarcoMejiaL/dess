@@ -1,0 +1,205 @@
+.about__container .personal__data p{
+    padding-left: 0;
+}
+
+@media screen and (max-width: 600px) {
+    header{
+        padding: 0 !important;
+    }
+    
+    .header__content--desktop{
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 6rem;
+    }
+
+    
+    .right__header{
+        grid-row: 1;
+        padding-right: 0rem !important;
+        width: 90%;
+        margin: 0 auto;
+        .header__name{
+            font-size: 2.5rem !important;
+            text-align: center;
+            padding-top: 3rem;
+        }
+    }
+    .header__content--desktop .lef-header .image{
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .menu__container--desktop{
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey-5);
+        .control{
+            margin: 1rem .3rem;
+        }
+    }
+
+    .about__container{
+        grid-template-columns: repeat(1, 1fr);
+        .personal__data{
+            grid-template-columns: repeat(1, 1fr);
+            padding-top: 2.5rem;
+        }
+        .years__container{
+            padding-right: 0;
+            .years__cards{
+                padding-left: 0;
+            }
+        }
+    }
+    .container{
+        padding: 2rem 2.5rem !important;
+    }
+
+    .portfolios{
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 6rem;
+        margin-top: 1rem;
+    }
+    .cards__container{
+        grid-template-columns: repeat(1, 1fr) !important;
+        padding-bottom: 6rem;
+    }
+    
+
+
+    .container__title{
+        .main__title{
+            font-size: 2rem;
+            .span{
+                font-size: 2.3rem;
+            }
+            .back__title{
+                font-size: 4.4rem;
+            }
+        }
+    }
+   
+}
+
+@media screen and (max-width:1432px){
+    .container{
+        padding: 7rem 11rem;
+    }
+
+
+    .container__title{
+        .span{
+            .back__title{
+                font-size: 5.5rem;
+            }
+        }
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:1250px){
+    .personal__tittle{
+        text-align: center;
+    }
+    .portfolios{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .header-content .right-header{
+        padding-right: 9rem;
+    }
+    .about__container{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
+
+
+@media screen and (max-width:660px){
+   
+    .portfolios{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:1070px){
+    .years__container{
+        grid-template-columns: repeat(1, 1fr);
+        .years__cards{
+            padding-top: 2.5rem;
+        }
+    }
+    .container__title{
+        h1{
+            font-size: 4rem;
+            .span{
+                font-size: 4rem;
+            }
+            .back__title{
+                font-size: 4.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:970px){
+    .container{
+        padding: 7rem 6rem;
+    }
+    .about__container .left-about{
+        padding-right: 0rem;
+    }
+    .header__content--desktop{
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 6rem;
+    }
+
+    .lef-header{
+        
+        .image{
+            width: 50% !important;
+            margin: 0 auto !important;
+            
+        }
+    }
+    .right__header{
+        grid-row: 1;
+        padding-right: 0rem !important;
+        width: 90%;
+        margin: 0 auto;
+        .header__name{
+            font-size: 2.5rem !important;
+            text-align: center;
+            padding-top: 3rem;
+        }
+    }
+}
+@media screen and (max-width:700px){
+    .container{
+        padding: 7rem 3rem;
+    }
+    
+    .about__container .years__container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    
+    .container__title{
+        h1{
+            font-size: 3rem;
+            .span{
+                font-size: 3rem;
+            }
+            .back__title{
+                font-size: 4rem;
+            }
+        }
+    }
+}
